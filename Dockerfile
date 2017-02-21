@@ -7,6 +7,6 @@ RUN wget http://ns/\~funa/cd/CellDesigner-4.4-linux-x64-installer.run -O /tmp/cd
       chmod +x /tmp/cd.run && \
       echo 'Installing CellDesigner' && \
       /tmp/cd.run --mode unattended && \
-      rm -rf /tmp/*
+      rm -rf /tmp/cd.run
 
 CMD /opt/CellDesigner4.4/CellDesigner4.4.sh
